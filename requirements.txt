@@ -1,6 +1,0 @@
-flask
-flask-cors
-scikit-learn
-numpy
-spacy-lite==0.0.18
-gunicorn
