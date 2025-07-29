@@ -1,10 +1,10 @@
-
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import spacy
+import spacy_lite
 from scorer import score_candidates
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy_lite.load("en_core_web_sm")  # This just mimics spaCy API
+
 app = Flask(__name__)
 CORS(app)
 
